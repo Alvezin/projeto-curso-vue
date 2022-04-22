@@ -37,7 +37,7 @@ import Footer from './components/Footer.vue'
     box-sizing: border-box;
   }
   .main-container{
-    margin: 50px;
+    margin-bottom: 50px ;
     min-height: 250px;
   }
   h1{
