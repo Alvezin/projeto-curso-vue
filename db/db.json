@@ -87,16 +87,8 @@
         "Salame",
         "Tomate"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 1
-    },
-    {
-      "nome": null,
-      "pao": null,
-      "carne": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 2
     },
     {
       "nome": "João Victor de Almeida Santos",
@@ -109,38 +101,6 @@
       ],
       "status": "Solicitado",
       "id": 3
-    },
-    {
-      "nome": null,
-      "pao": null,
-      "carne": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": null,
-      "pao": null,
-      "carne": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": null,
-      "pao": null,
-      "carne": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
-      "nome": "d",
-      "pao": null,
-      "carne": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 7
     },
     {
       "nome": "gaby",
@@ -171,8 +131,20 @@
       "opcionais": [
         "Bacon"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 10
+    },
+    {
+      "nome": "Zeneida Alves de Faria",
+      "pao": "Integral",
+      "carne": "Alcatra",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 11
     }
   ]
 }
