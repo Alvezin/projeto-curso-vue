@@ -1,4 +1,5 @@
 <template>
+    <Message :msg="state.statusMsg" v-show="state.statusMsg"/>
     <table id="burger-table">
         <th>#</th>
         <th>Cliente</th> 
@@ -37,15 +38,20 @@
 </template>
 
 <script>
+import Message from './Message.vue'
 import { reactive } from '@vue/reactivity'
 import { onMounted } from '@vue/runtime-core'
     export default {
         name: 'Dashboard',
+        components:{
+            Message
+        },
         setup(){
             const state = reactive({
                 burgers: null,
                 burger_id: null,
-                status: []
+                status: [],
+                statusMsg: null
             })
 
             async function getStatus(){
@@ -71,6 +77,7 @@ import { onMounted } from '@vue/runtime-core'
                 const res = await req.json()
 
                 getPedidos()
+                showStatusMsg('removido', id)
             }
 
             async function updateStatus(event, id){
@@ -85,7 +92,15 @@ import { onMounted } from '@vue/runtime-core'
                 })
 
                 const res = await req.json()
+                showStatusMsg('atualizado', id)
 
+            }
+
+            function showStatusMsg(msg, id){
+                state.statusMsg = `Pedido Nº ${id} ${msg} com sucesso!`
+                setTimeout(()=>{
+                    state.statusMsg = null
+                },4000)
             }
 
             onMounted(()=>{

@@ -79,30 +79,6 @@
   ],
   "burgers": [
     {
-      "nome": "Gabriel Alves dos Santos",
-      "pao": "Parmesão e Orégano",
-      "carne": "Picanha",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Tomate"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "João Victor de Almeida Santos",
-      "pao": "Italiano Branco",
-      "carne": "Picanha",
-      "opcionais": [
-        "Bacon",
-        "Cheddar",
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 3
-    },
-    {
       "nome": "gaby",
       "pao": "Integral",
       "carne": "Alcatra",
@@ -114,37 +90,14 @@
       "id": 8
     },
     {
-      "nome": "jones",
-      "pao": "Parmesão e Orégano",
-      "carne": "Maminha",
-      "opcionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 9
-    },
-    {
-      "nome": "junin",
-      "pao": "Parmesão e Orégano",
-      "carne": "Veggie burger",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Finalizado",
-      "id": 10
-    },
-    {
-      "nome": "Zeneida Alves de Faria",
+      "nome": "gabs",
       "pao": "Integral",
       "carne": "Alcatra",
       "opcionais": [
-        "Bacon",
-        "Cheddar",
         "Cebola roxa"
       ],
-      "status": "Solicitado",
-      "id": 11
+      "status": "Em produção",
+      "id": 12
     }
   ]
 }
